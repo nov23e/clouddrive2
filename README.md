@@ -45,17 +45,17 @@
 
 ```shell
 # 国内加速(推荐)
-curl -fsSL "https://mirror.ghproxy.com/https://raw.githubusercontent.com/anpplex/clouddrive2/main/cd2.sh" | bash -s install mirror
+curl -fsSL "https://mirror.ghproxy.com/https://raw.githubusercontent.com/nov23e/clouddrive2/main/cd2.sh" | bash -s install mirror
 # 代理
-curl -fsSL "https://raw.githubusercontent.com/lonelylose/clouddrive2/main/cd2.sh" | bash -s install
+curl -fsSL "https://raw.githubusercontent.com/nov23e/clouddrive2/main/cd2.sh" | bash -s install
 ```
 
 ### 卸载命令
 ```shell
 # 国内加速(推荐)
-curl -fsSL "https://mirror.ghproxy.com/https://raw.githubusercontent.com/anpplex/clouddrive2/main/cd2.sh" | bash -s uninstall mirror
+curl -fsSL "https://mirror.ghproxy.com/https://raw.githubusercontent.com/nov23e/clouddrive2/main/cd2.sh" | bash -s uninstall mirror
 # 代理
-curl -fsSL "https://raw.githubusercontent.com/anpplex/clouddrive2/main/cd2.sh" | bash -s uninstall
+curl -fsSL "https://raw.githubusercontent.com/nov23e/clouddrive2/main/cd2.sh" | bash -s uninstall
 ```
 
 ## 安卓
