@@ -236,7 +236,7 @@ DOCKER() {
     mount --make-shared /
     echo -e "${GREEN_COLOR}正在下载 clouddrive 镜像，请稍候...${RES}"
     mkdir -p /CloudNAS /Config /media
-    docker pull cloudnas/clouddrive2:latest 
+    docker pull registry.cn-guangzhou.aliyuncs.com/monose/clouddrive2 
     docker run -d \
     --name clouddrive \
     --restart unless-stopped \
@@ -248,7 +248,7 @@ DOCKER() {
     --pid host \
     --privileged \
     --device /dev/fuse:/dev/fuse \
-    cloudnas/clouddrive2:latest 
+    registry.cn-guangzhou.aliyuncs.com/monose/clouddrive2  
     if [ $? -eq 0 ]; then
       echo -e "${GREEN_COLOR}clouddrive 容器已成功运行${RES}"
     else
